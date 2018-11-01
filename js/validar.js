@@ -40,14 +40,13 @@ if( apellidodos == null || apellidodos.length == 0 || /^\s+$/.test(apellidodos) 
 }
 
 
-var ano = document.getElementById("fechanac").value;
-var mes = document.getElementById("fechanac").value;
-var dia = document.getElementById("fechanac").value;
+var fecha = document.getElementById("fechanac").value;
+
 
 
 
  
-fecha = new Date(ano, mes, dia);
+
  
 if( !isNaN(fecha) ) {
 	alert(" Fecha de nacimento Campo vacio por favor diligencie el campo");
